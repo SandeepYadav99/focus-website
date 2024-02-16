@@ -1,171 +1,268 @@
-body{
-    font-size: 14px;
+body {
+  font-size: 14px;
 }
-body, html, form, input, h1, h2, h3, h4, h5, h6, p, span, table, tr, td, ul, ol, li, button{
-    font-family: "Urbanist", sans-serif;
+body,
+html,
+form,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+table,
+tr,
+td,
+ul,
+ol,
+li,
+button {
+  font-family: "Urbanist", sans-serif;
 }
-.nav-logo{
-    max-width: 150px;
+.nav-logo {
+  max-width: 150px;
 }
-.menuButton{
-    color: #fff;
-    background: #CC3433;
-    border: none;
-    font-size: 14px;
-    padding: 8px 25px;
-    border-radius: 5px;
-    margin-top: -9px;
+.menuButton {
+  color: #fff;
+  background: #cc3433;
+  border: none;
+  font-size: 14px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin-top: -9px;
 }
-.themeButton{
-    color: #fff;
-    background: #CC3433;
-    border: none;
-    font-size: 14px;
-    padding: 8px 25px;
-    border-radius: 5px;
-    margin-top: -9px;
+.themeButton {
+  color: #fff;
+  background: #cc3433;
+  border: none;
+  font-size: 14px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin-top: -9px;
 }
-.themeWhiteButton{
-    color: #CC3433;
-    background: #fff;
-    border: none;
-    font-size: 14px;
-    padding: 8px 25px;
-    border-radius: 5px;
-    margin-top: -9px;
+.themeWhiteButton {
+  color: #cc3433;
+  background: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin-top: -9px;
 }
-.navbar-light .navbar-nav .nav-link{
-    font-size: 14px;
-    font-weight: 700;
-    color: black;
+.navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
 }
-.navbar-light .navbar-nav .active>.nav-link{
-    color: #CC3433;
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #cc3433;
 }
-header{
-    -webkit-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+header {
+  -webkit-box-shadow: 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
 }
-.bannerHome{
-    padding: 50px 0;
+.bannerHome {
+  padding: 50px 0;
 }
-.bannerForm{
-    width: 80%;
-    margin-left: auto;
-    padding: 38px 30px;
-    background: #CC3433;
-    border-radius: 10px;
+.bannerForm {
+  width: 80%;
+  margin-left: auto;
+  padding: 38px 30px;
+  background: #cc3433;
+  border-radius: 10px;
 }
-label{
-    font-size: 14px;
+label {
+  font-size: 14px;
 }
-.themeFeild{
-    background: #FFFFFF;
+.themeFeild {
+  background: #ffffff;
 }
-.form-control{
-    height: auto;
-    font-size: 14px;
+.form-control {
+  height: auto;
+  font-size: 14px;
 }
-.themeWhiteButton{
-    background: white;
-    color: #CC3433;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: 700;
+.themeWhiteButton {
+  background: white;
+  color: #cc3433;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
 }
-.mb5{
-    margin-bottom: 5px;
+.mb5 {
+  margin-bottom: 5px;
 }
-.homeCourses{
-    background: #FBF8F8;
+.homeCourses {
+  background: #fbf8f8;
 }
-.ptb60{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.ptb60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.backgroundEngineering{
-    background: url("../img/engineering_bg.png");
-    background-position: 100% center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.backgroundEngineering {
+  background: url("../img/engineering_bg.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.backgroundNEET{
-    background: url("../img/medical_bg.png");
-    background-position: 0% center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 50px auto;
+.backgroundNEET {
+  background: url("../img/medical_bg.png");
+  background-position: 0% center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 50px auto;
 }
-.backgroundNDA{
-    background: url("../img/nda_bg.png");
-    background-position: 100% center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.backgroundNDA {
+  background: url("../img/nda_bg.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.subText{
-    font-size: 18px;
-    text-align: left;
-    font-weight: 700;
-    letter-spacing: 0px;
-    color: #CC3433;
-    text-transform: uppercase;
-    opacity: 1;
+.subText {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #cc3433;
+  text-transform: uppercase;
+  opacity: 1;
 }
-.heading{
-    font-size: 24px;
-    text-align: left;
-    font: 700;
-    letter-spacing: 0px;
-    color: #313131;
-    opacity: 1;
+.heading {
+  font-size: 24px;
+  text-align: left;
+  font: 700;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
 }
-.announcementTile{
-    box-shadow: 0px 0px 10px #00000029;
-    border-radius: 14px;
-    padding: 20px 25px;
+.announcementTile {
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 14px;
+  padding: 20px 25px;
 }
-.mtb25{
-    margin-bottom: 25px;
-    margin-top: 25px;
+.mtb25 {
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
-p{
-    margin-bottom: 14px;
+p {
+  margin-bottom: 14px;
 }
-.homeSuccess{
-    background: #CC3433;
+.homeSuccess {
+  background: #cc3433;
 }
-.homeFocus{
-    padding: 60px;
+.homeFocus {
+  padding: 60px;
 }
-.themeFooter{
-    background: #CC3433;
-    padding: 60px;
+.themeFooter {
+  background: #cc3433;
+  padding: 60px;
 }
-.testimonialCard{
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px;
+.testimonialCard {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
 }
-.tagIcon{
-    text-align: center;
-    box-shadow: 0px 0px 10px #00000029;
-    border-radius: 14px;
-    padding: 10px;
+.tagIcon {
+  text-align: center;
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 14px;
+  padding: 10px;
 }
 
-.bannerContact{
-    position: relative;
+.bannerContact {
+  position: relative;
 }
-.bannerContact .absoluteSection{
-    position: absolute;
-    width: 100%;
-    top: calc(50% - 42px);
-    font-weight: 700;
+.bannerContact .absoluteSection {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 42px);
+  font-weight: 700;
 }
-.bannerContact .absoluteext{
-    font-size: 36px;
-    color: #FFFFFF;
+.bannerContact .absoluteext {
+  font-size: 36px;
+  color: #ffffff;
+}
+/* about Css */
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutSubText {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #cc3433;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.aboutSubPara {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+  text-align: center;
+  padding: 20px;
+  width: 1170px;
+}
+.aboutSubDescription {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+  text-align: center;
+  padding: 20px;
+  width: 1170px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
+
+.aboutExp {
+  width: 1170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutTypeExp {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #cc3433;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.aboutType {
+  text-align: center;
+}
+.chooseUs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.aboutAnnouncementTile {
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 14px;
+  padding: 20px 25px;
+  width: 360px;
+  height: auto;
+}
+.aboutAchivmentContainer {
+  box-shadow: 0px 0px 1px #00000029;
+  border-radius: 14px;
+  padding: 20px 25px;
+  /* width: 360px; */
+  height: auto;
+}
+.aboutHeading {
+  text-align: center;
+  font-size: 24px;
 }
