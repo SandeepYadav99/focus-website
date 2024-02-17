@@ -1,0 +1,13 @@
+.aboutResult {
+    background: #cc3433;
+   
+  }
+
+.aboutTestimonialCard {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
