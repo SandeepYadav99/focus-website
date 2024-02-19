@@ -37,6 +37,11 @@
   color: #313131;
   opacity: 1;
 }
+@media screen and (max-width: 756px){
+.focusParagraph{
+  font-size: 28px;
+}
+}
 .focusParagraph1 {
   font-size: 16px;
   font-weight: 700;
@@ -44,6 +49,17 @@
   color: #313131;
   opacity: 1;
 }
+@media screen and (max-width: 756px){
+  .focusParagraph ,.focusTitle1{
+    font-size: 28px;
+    text-align: justify;
+    padding: 20px;
+    letter-spacing: normal;
+  }
+  .focusParagraph1{
+    padding: 20px;
+  }
+  }
 .aboutChoose {
   font-size: 38px;
   text-align: center;
@@ -53,8 +69,13 @@
   /* text-transform: uppercase; */
   opacity: 1;
 }
+@media screen and (max-width: 756px){
+  .aboutChoose{
+    font-size: 28px;
+  }
+}
 .card {
-  margin: 20px; /* Adjust the value as needed */
+  margin: 20px; 
 }
 
 .AchivementHeading {
