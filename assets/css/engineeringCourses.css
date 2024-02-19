@@ -51,11 +51,15 @@
   font-size: 24px;
 }
 .card {
-  margin: 20px; /* Adjust the value as needed */
+  margin: 20px; 
 }
 .cardHeader {
   background-color: red;
   color: white;
   font-weight: 700;
   font-size: 24px;
+}
+.card-link{
+  color: red;
+  text-decoration: underline;
 }
