@@ -1,0 +1,29 @@
+.banner-eng {
+  position: relative;
+  margin-top: 20px;
+}
+.banner-eng .absoluteSection {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 42px);
+  font-weight: 700;
+}
+.banner-eng .absoluteext {
+  font-size: 36px;
+  color: #ffffff;
+}
+.eng-heading {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #cc3433;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.eng-subheading {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+}
