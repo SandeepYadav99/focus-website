@@ -57,7 +57,7 @@
   margin: 20px; /* Adjust the value as needed */
 }
 
-.AchivementHeading{
+.AchivementHeading {
   font-size: 24px;
 
   font-weight: 700;
@@ -66,23 +66,21 @@
   text-transform: uppercase;
   opacity: 1;
 }
-.AchivementSubHeding{
+.AchivementSubHeding {
   font-size: 38px;
 
   font-weight: bold;
   letter-spacing: 0px;
   color: #313131;
-  
+
   opacity: 1;
 }
-.aboutContact{
-
+.aboutContact {
 }
 
 .aboutContact {
   position: relative;
   margin: 10px;
-
 }
 .aboutContact .absoluteSection {
   position: absolute;
@@ -94,27 +92,39 @@
   font-size: 36px;
   color: #ffffff;
 }
-.bg-red{
+.bg-red {
   background-color: red !important;
   width: 100%;
   height: 20%;
 }
-.card1{
+.card1 {
   background-color: red;
 }
 .img-fluid {
   height: 100%;
 }
-.card-text{
+.card-text {
   font-size: 28px;
   font-weight: 700px;
 }
-.card-body1{
+.card-body1 {
   color: white;
- 
-
-
 }
 .custom-image-width {
-max-width: 150%;
+  max-width: 150%;
+}
+
+.banner-about  {
+  position: relative;
+  margin-top: 20px;
+}
+.banner-about  .absoluteSection {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 42px);
+  font-weight: 700;
+}
+.banner-about  .absoluteext {
+  font-size: 36px;
+  color: #ffffff;
 }
