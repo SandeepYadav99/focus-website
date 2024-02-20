@@ -87,10 +87,7 @@
   opacity: 1;
 }
 .AchivementSubHeding {
-  
-  
-  text-align: left;
-  font: normal normal bold 38px/48px Urbanist;
+   font: normal normal bold 38px/48px Urbanist;
   letter-spacing: 0px;
   color: #313131;
   opacity: 1;
@@ -206,10 +203,14 @@ color: #FFFFFF;
 opacity: 1;
 }
 .fac_para{
-  font: normal normal normal 16px/24px Urbanist;
-letter-spacing: 0px;
+  font-size: 15px;
+
 color: #313131;
-opacity: 1;
+
+text-align: justify;
+font-weight: normal;
+
+
 }
 .success_banner{
   background: transparent url('../img/eng_course/why_choose_us_bg.png') 0% 0% no-repeat padding-box;
