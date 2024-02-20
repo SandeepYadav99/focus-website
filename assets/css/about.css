@@ -211,3 +211,18 @@ letter-spacing: 0px;
 color: #313131;
 opacity: 1;
 }
+.success_banner{
+  background: transparent url('../img/eng_course/why_choose_us_bg.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+   background-position: center;
+}
+.faculties{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .faculties{
+    flex-wrap: wrap;
+  }
+}
