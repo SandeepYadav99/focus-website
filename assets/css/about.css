@@ -151,6 +151,11 @@
   margin: 0 30px 0 30px;
   color: black;
 }
+@media screen and (max-width:987px) {
+  #carouselExampleFade {
+   width: 100% !important;
+  }
+}
 .join-text {
   font: normal normal bold 16px/19px Urbanist;
   letter-spacing: 0px;
@@ -166,6 +171,16 @@
   box-shadow: 0px 0px 10px #00000029;
   border-radius: 14px;
   opacity: 1;
+  min-width: 14rem !important;
+
+  height: auto !important;
+  border: none !important;
+  padding-top: 25px !important;
+}
+@media screen and(max-width:900px) {
+  .card-shadow {
+    min-width: 25rem;
+  }
 }
 .aboutHeading {
   text-align: center;
@@ -220,11 +235,20 @@
   justify-content: space-around;
   align-items: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .faculties {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
-  .fac_para{
-    padding: 10px;
+  .fac_para {
+    padding: 20px;
   }
+}
+.container-width {
+  width: 100%;
+}
+.imageView {
+  margin-top: 10px !important;
+}
+.direct-message{
+  
 }
