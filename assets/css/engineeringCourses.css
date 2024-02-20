@@ -102,7 +102,6 @@
   border-radius: 14px;
   opacity: 1;
   width: 340px;
- 
 }
 
 .cardHeader {
@@ -110,10 +109,58 @@
   border-radius: 14px 14px 0px 0px;
   opacity: 1;
   padding: 10px !important;
-   text-align: left;
+  text-align: left;
   font: normal normal bold 24px/33px Urbanist;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
   width: 340px;
+}
+.eng_type {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+ 
+}
+.choose_us {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.choose_us > img {
+  width: 60px;
+  height: 40px;
+}
+.choose_us > h5 {
+  width: 60%;
+}
+.card-size {
+  margin-top: -12%;
+  width: 1100px;
+  border: none;
+  background-color: #cc3433;
+  background: #cc3433 0% 0% no-repeat padding-box;
+  border-radius: 14px 0px 0px 0px;
+  opacity: 1;
+}
+@media screen and (max-width: 950px) {
+  .card-size {
+    margin-top: -15px;
+    border-radius: 14px 0px 0px 0px;
+    height: 50%;
+    background-color: #cc3433;
+    
+  }
+}
+
+.orderList{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bg-banner{
+  background-color: #FBF8F8;
+  padding: 20px 40px;
 }
