@@ -151,9 +151,9 @@
   margin: 0 30px 0 30px;
   color: black;
 }
-@media screen and (max-width:987px) {
+@media screen and (max-width: 987px) {
   #carouselExampleFade {
-   width: 100% !important;
+    width: 100% !important;
   }
 }
 .join-text {
@@ -249,6 +249,15 @@
 .imageView {
   margin-top: 10px !important;
 }
-.direct-message{
-  
+.direct-message {
+}
+.card-size {
+  margin-top: -12%;
+  width: 80%;
+  border-radius: 15px;
+}
+@media screen and (max-width: 900px) {
+  .card-size {
+    margin-top: -15px;
+  }
 }
