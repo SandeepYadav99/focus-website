@@ -54,9 +54,22 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/engineeringCourses.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <script>
+      $(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 3,
+    margin: 10,
+    loop: true,
+    nav: true
+  });
+});
+
+      </script>
   </head>
 
   <body>
@@ -276,14 +289,15 @@
 
 
 
-   <section class="pb60 w-[100%] overflow-scroll ">
-    <div class="">
-       <div  class="owl-carousel owl-theme d-flex ">
-        <!-- 1 -->
-        <div class="card ">
-         
-            <div class="d-flex w-100 ">
-              <img src="assets/img/eng_course/ic_scholarship_red.png" class=" rounded-start" alt="...">
+   <section class="pb60  ">
+    <div class="home-demo">
+ 
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card ">
+           
+            <div class="d-flex item-card1">
+              <img src="assets/img/eng_course/ic_scholarship_red.png" class="owl-image rounded-start" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Upto 90% Scholarship</h5>
                 <p class="card-text">Get upto 90% Scholarship to study with ease. Get upto 90% Scholarship to study with ease. Get upto 90% Scholarship to study with ease. Get upto 90% Scholarship to study with ease. Get upto 90% Scholarship to study with ease.</p>
@@ -292,12 +306,12 @@
             </div>
            
           </div>
-        
-        <!-- 2 -->
-        <div class="card " >
-         
-            <div class="d-flex w-100 ">
-              <img src="assets/img/eng_course/ic_selection_red.png"  class=" rounded-start" alt="...">
+        </div>
+        <div class="item">
+          <div class="card item-card" >
+           
+            <div class="d-flex  ">
+              <img src="assets/img/eng_course/ic_selection.png"  class="owl-image rounded-start" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Sure Shot Selection Batch</h5>
                 <p class="card-text">FOCUS Sure Shot Selection Batch for a dedicated assured selection to top rated institutes in India. FOCUS Sure Shot Selection Batch for a dedicated assured selection to top rated institutes in India.</p>
@@ -306,11 +320,12 @@
             </div>
         
         </div>
-        <!-- 3 -->
-        <div class="card " >
-          
-            <div class="d-flex w-100 ">
-              <img src="assets/img/eng_course/ic_personal_sessions_red.png"  class=" rounded-start" alt="...">
+        </div>
+        <div class="item">
+          <div class="card item-card1" >
+            
+            <div class="d-flex  ">
+              <img src="assets/img/eng_course/ic_personal_sessions_red.png"  class="owl-image rounded-start" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Personal Sessions & Counselling</h5>
                 <p class="card-text">Avail personal sessions and counselling from domain experts. Avail personal sessions and counselling from domain experts. Avail personal sessions and counselling from domain experts.</p>
@@ -321,7 +336,9 @@
           </div>
         </div>
        </div>
-
+        </div>
+       
+      </div>
     </div>
    </section>
 
@@ -400,15 +417,7 @@
   
    
 <section class="ptb60 ">
-  <div class="owl-carousel owl-theme">
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-  </div>
+  
 </section>
 
 
@@ -515,6 +524,8 @@
     </footer>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </body>
