@@ -120,7 +120,6 @@
   opacity: 1;
   width: calc(33% - 40px);
   /* margin: 0 20px; */
-  
 }
 
 .cardHeader {
@@ -133,13 +132,13 @@
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  
+
   height: 62px;
 }
 .eng_type {
   display: flex;
   justify-content: center;
- 
+
   flex-wrap: wrap;
   gap: 3%;
 }
@@ -255,43 +254,40 @@
 }
 
 .item-card1 {
-  background: #ffffff ;
+  background: #ffffff;
   box-shadow: 0px 0px 10px #00000029;
   border-radius: 14px;
-  opacity: 1;
+
   border: none;
   color: black;
- border-radius: 14px;
-
-  
+  border-radius: 14px;
 }
 .owl-image {
   width: 80px;
   height: 80px;
   margin-top: 2%;
- 
 }
-.avel-css{
+.avel-css {
   display: flex;
   justify-content: center;
   gap: 5%;
   align-items: center;
 }
-.home-demo{
+.home-demo {
   position: relative;
   margin: 0 8%;
 }
-.home-demo .owl-item.active.center .item-card1{
+.home-demo .owl-item.active.center .item-card1 {
   transform: scale(1.15);
   background: #cc3433 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #00000029;
   border-radius: 14px;
-  opacity: 1;
+
   color: white;
   border-radius: 14px;
- 
-  
 }
-.home-demo .owl-item.active.center .owl-image{
-  filter:   brightness(150%) drop-shadow(0 0 0 white);
+.home-demo .owl-item.active.center .owl-image {
+  filter: drop-shadow(0 0 0 white);
+  opacity: 1;
+ 
 }
