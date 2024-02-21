@@ -13,18 +13,31 @@
   color: #ffffff;
 }
 .eng-heading {
-  font-size: 24px;
-  font-weight: 700;
+  text-align: left;
+  font: normal normal bold 24px/48px Urbanist;
   letter-spacing: 0px;
   color: #cc3433;
   text-transform: uppercase;
   opacity: 1;
 }
-.eng-subheading {
-  font-size: 38px;
-  font-weight: bold;
+.eng-subHeding {
+  text-align: left;
+  font: normal normal bold 38px/48px Urbanist;
   letter-spacing: 0px;
   color: #313131;
+  opacity: 1;
+}
+.eng-para {
+  text-align: left;
+  font: normal normal normal 16px/24px Urbanist;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+}
+.iit_jeeImage {
+  /* box-shadow: 0px 0px 10px #00000029; */
+  border: 10px solid #ffffff;
+  border-radius: 14px;
   opacity: 1;
 }
 .eng-title {
@@ -46,10 +59,10 @@
   /* text-transform: uppercase; */
   opacity: 1;
 }
-.eng-heading {
+/* .eng-heading {
   text-align: center;
   font-size: 24px;
-}
+} */
 .card {
   margin: 20px;
 }
@@ -118,15 +131,27 @@
   width: 340px;
 }
 .eng_type {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 5px;
+  display: grid;
+  place-items: center !important;
 }
+
+@media screen and (min-width: 765px) {
+  .eng_type {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+  .eng_type {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .choose_us {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.choose_us_img {
+  text-align: center;
 }
 .choose_us_img img {
   width: 70px;
@@ -135,8 +160,9 @@
 
 .choose_us_img h5 {
   width: 130px;
+  margin: 3px;
 }
-.card-size {
+/* .card-size {
   margin-top: -12%;
   width: 1100px;
   border: none;
@@ -152,13 +178,41 @@
     height: 50%;
     background-color: #cc3433;
   }
+} */
+.card-size {
+  margin-top: -10%;
+  width: 1100px;
+  border: none;
+  background-color: #cc3433;
+  border: none;
+  border-radius: 14px 14px 0px 0px;
+}
+@media screen and (max-width: 950px) {
+  .card-size {
+    margin-top: -14px;
+    border-radius: 14px 14px 0px 0px;
+    height: 50%;
+    background-color: #cc3433;
+  }
 }
 
+@media screen and (min-width: 1900px) {
+  .card-size {
+    margin-top: -19px;
+    border-radius: 14px 14px 0px 0px;
+    height: 50%;
+  }
+}
 .orderList {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  place-items: center;
+}
+@media screen and (min-width: 765px) {
+  .orderList {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    width: 90%;
+  }
 }
 .bg-banner {
   background-color: #fbf8f8;
@@ -192,18 +246,15 @@
 }
 
 .item-card1 {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #00000029;
   border-radius: 14px;
   opacity: 1;
   border: none;
   color: black;
 }
- .owl-image {
+.owl-image {
   width: 100px;
   height: 100px;
   margin-top: 10%;
- 
 }
-
-
