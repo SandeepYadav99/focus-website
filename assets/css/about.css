@@ -79,18 +79,21 @@
   margin: 20px;
 }
 
-.AchivementHeading {
+.achivementHeading {
   font: normal normal bold 24px/48px Urbanist;
   letter-spacing: 0px;
   color: #cc3433;
   text-transform: uppercase;
   opacity: 1;
 }
-.AchivementSubHeding {
+.achivementSubHeding {
   font: normal normal bold 38px/48px Urbanist;
   letter-spacing: 0px;
   color: #313131;
   opacity: 1;
+}
+.container-width {
+width: 100%;
 }
 .aboutContact {
 }
@@ -248,29 +251,23 @@
 .direct-message {
 }
 .card-size {
-  margin-top: -12%;
+  margin-top: -10%;
   width: 1100px;
   border: none;
   background-color: #cc3433;
-border: none;
-  border-radius: 14px 0px 0px 0px;
-
+  border: none;
+  border-radius: 14px 14px 0px 0px;
 }
 @media screen and (max-width: 950px) {
   .card-size {
-    margin-top: -15px;
+    margin-top: -14px;
     border-radius: 14px 14px 0px 0px;
     height: 50%;
     background-color: #cc3433;
   }
 }
-
-@media screen and (min-width: 2211px) {
+@media screen and (min-width: 1900px) {
   .card-size {
-    margin-top: -15px;
-    border-radius: 14px 0px 0px 0px;
-    height: 50%;
-  
-    
+    top: 40px;
   }
 }
