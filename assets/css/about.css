@@ -131,7 +131,7 @@
 
 .banner-about {
   position: relative;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .banner-about .absoluteSection {
   position: absolute;
