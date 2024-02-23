@@ -272,3 +272,112 @@ p {
   
   }
 }
+
+.whats-app {
+  position: fixed !important;
+  width: 60px !important;
+  height: 60px;
+  bottom: 120px !important;
+  right: 10% !important;
+  background-color: #43C654 !important;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whats-app:hover {
+  width: 160px; 
+}
+
+.whats-app:hover::after {
+  content: "WHATSAPP US"; 
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50px; 
+  width: 100px;
+  height: 60px;
+  background-color: #43C654;
+  color: #FFF;
+  text-align: center;
+  line-height: 60px;
+  transition: right 0.3s ease; 
+  font-size: 14px;
+  font-weight: bold !important;
+  /* border-radius: 14px !important; */
+  border-radius: 10px;
+}
+
+.whats-app:hover::before {
+  content: ''; 
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50px; 
+  width: 80px;
+  height: 90%;
+  background-color: #43C654;
+  /* transform: rotate(45deg);  */
+  transition: right 0.3s ease; 
+  border-radius: 10px 8px 8px 10px;
+}
+.my-float {
+  margin-top: 16px;
+  color: white;
+}
+.phone-call{
+  position: fixed !important;
+  width: 60px !important;
+  height: 60px;
+  bottom: 40px;
+  right: 10% !important;
+  background-color: #CC3433 !important;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+
+  transition: width 0.3s ease;
+}
+
+
+.phone-call:hover {
+  width: 160px; 
+}
+
+.phone-call:hover::after {
+  content: "CALL US"; 
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50px; 
+  width: 100px;
+  height: 60px;
+  background-color: #CC3433;
+  color: #FFF;
+  text-align: center;
+  line-height: 60px;
+  font-size: 14px;
+  font-weight: bold !important;
+  transition: right 0.3s ease; 
+  border-radius: 14px !important;
+}
+
+.phone-call:hover::before {
+  content: ''; 
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50px; 
+  width: 80px;
+  height: 90%;
+  background-color: #CC3433;
+  /* transform: rotate(45deg);  */
+  transition: right 0.3s ease; 
+  border-radius: 10px 8px 8px 10px;
+}
