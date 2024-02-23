@@ -248,9 +248,27 @@ p {
   height: auto;
 }
 
-
-.subAboutAchivmentContainer{
+.subAboutAchivmentContainer {
   box-shadow: 0px 0px 1px #00000029;
   border-radius: 14px;
   padding: 10px 20px;
+}
+
+.right-direction {
+  display: grid !important;
+  gap: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 14px !important;
+  place-items: center;
+  justify-content: center;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+@media screen and (min-width:1020px ) {
+  .right-direction {
+    grid-template-columns: repeat(2, 250px);
+  
+  }
 }
