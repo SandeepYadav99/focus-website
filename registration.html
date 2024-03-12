@@ -82,10 +82,14 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="engineeringCourses.html">Engineering Courses</a>
+                <a class="nav-link" href="engineeringCourses.html"
+                  >Engineering Courses</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="MedicalCourser.html">Medical Courses</a>
+                <a class="nav-link" href="MedicalCourser.html"
+                  >Medical Courses</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="NDACourses.html">NDA Courses</a>
@@ -96,7 +100,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-              <li class="nav-item active ">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">
                   <button class="menuButton">REGISTER NOW</button>
                 </a>
@@ -127,26 +131,34 @@
               Register with Focus Institute and give your career the right
               direction
             </h3>
-            <div class=" right-direction ">
+            <div class="right-direction">
               <div>
                 <img src="assets/img/1.png" alt="" />
-                <p class="text-center "><strong>Tanishka Chabra</strong> <br/> NEET</p>
-                
+                <p class="text-center">
+                  <strong>Tanishka Chabra</strong> <br />
+                  NEET
+                </p>
               </div>
               <div>
                 <img src="assets/img/2.png" alt="" />
-                <p class="text-center "><strong>Abhishek Singh</strong>  <br/> NEET</p>
-                
+                <p class="text-center">
+                  <strong>Abhishek Singh</strong> <br />
+                  NEET
+                </p>
               </div>
               <div>
                 <img src="assets/img/3.png" alt="" />
-                <p class="text-center "><strong>Tanmay Singh Rastogi</strong> <br/> NEET</p>
-                
+                <p class="text-center">
+                  <strong>Tanmay Singh Rastogi</strong> <br />
+                  NEET
+                </p>
               </div>
               <div>
                 <img src="assets/img/4.png" alt="" />
-                <p class="text-center "><strong>Ritika Rao</strong> <br/> NEET</p>
-                
+                <p class="text-center">
+                  <strong>Ritika Rao</strong> <br />
+                  NEET
+                </p>
               </div>
             </div>
           </div>
@@ -183,9 +195,23 @@
                     type="tel"
                     class="form-control themeFeild"
                     name="contact"
+                    id="telephone"
                     placeholder="Contact Number"
+                    minlength="10"
+                    maxlength="10"
                     required
                   />
+                </div>
+                <div class="mt-3">
+                  <label for="" class="text-white mb5"
+                    >Your Class<sup>*</sup></label
+                  >
+                  <select name="interest" id="" class="form-control" required>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
                 </div>
                 <div class="mt-3">
                   <label for="" class="text-white mb5"
@@ -197,8 +223,34 @@
                     <option value="NDA">NDA</option>
                   </select>
                 </div>
-                <div class="mt-4">
-                  <button class="themeWhiteButton w-100">Submit</button>
+                <div class="mt-3">
+                  <label for="" class="text-white mb5"
+                    >Your City<sup>*</sup></label
+                  >
+                  <select name="interest" id="" class="form-control" required>
+                    <!-- <option value="NEET">NEET</option>
+                    <option value="JEE">JEE</option>
+                    <option value="NDA">NDA</option> -->
+                  </select>
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                  <div class="checkboxContainer">
+                    <input
+                      type="checkbox"
+                      class="bg-danger-bg"
+                      id="scholarshipCheckbox"
+                    />
+                    <span class="text-white mb5">Apply for Scholarship</span>
+                  </div>
+                  <div class="checkboxContainer">
+                    <input type="checkbox" class="" />
+                    <span class="text-white mb5"
+                      >Interested in Hostel Facility</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-5 text-center submitbutton">
+                  <button class="themeWhiteButton w-50">Submit</button>
                 </div>
               </form>
             </div>
@@ -213,12 +265,10 @@
           <a class="whats-app" href="#" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
           </a>
-         
-            <a class="phone-call" href="#" target="_blank">
-              <i class="fa fa-phone my-float"></i>
-             
-            </a>
-          
+
+          <a class="phone-call" href="#" target="_blank">
+            <i class="fa fa-phone my-float"></i>
+          </a>
         </div>
       </div>
     </section>
@@ -326,5 +376,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      document
+        .getElementById("telephone")
+        .addEventListener("input", function (event) {
+          let inputValue = event.target.value;
+          event.target.value = inputValue.replace(/\D/g, "");
+        });
+    </script>
   </body>
 </html>
